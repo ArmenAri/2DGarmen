@@ -2,6 +2,10 @@ package io.github.armenari.garmen.utils;
 
 public class GDefines {
 
+    /**
+     * Constants
+     */
+
     public static final String TITLE = "Test";
     public static final String VERSION = "0.1";
 
@@ -10,7 +14,7 @@ public class GDefines {
 
     public static final int FPS = 60;
 
-    /*
+    /**
      * Colors
      */
     public static final float[] WHITE = new float[] { 229f / 255f, 255f / 255f, 239f / 255f, 1.0f };

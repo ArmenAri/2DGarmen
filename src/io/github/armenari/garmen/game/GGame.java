@@ -1,16 +1,18 @@
 package io.github.armenari.garmen.game;
 
-public class GGame {
+public abstract class GGame {
 
     public GGame() {
 
     }
 
-    public void update() {
+    /**
+     * Called every frame (updating position ...)
+     */
+    public abstract void update();
 
-    }
-
-    public void render() {
-
-    }
+    /**
+     * Called every frame (rendering objects ...)
+     */
+    public abstract void render();
 }

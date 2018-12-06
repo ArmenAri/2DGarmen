@@ -13,7 +13,7 @@ import org.lwjgl.BufferUtils;
 
 public class GTexture {
 
-    public static GTexture default_font = loadTexture("/default_font.png");
+    public static GTexture default_font = loadTexture("fonts/default_font.png");
 
     private int width, height;
     private int id;

@@ -14,6 +14,15 @@ public class GObject {
     protected int sizeY;
     protected boolean rigid;
 
+    /**
+     * @param ID
+     * @param x
+     * @param y
+     * @param sizeX
+     * @param sizeY
+     * @param rigid
+     * Game object with dimensions ID and rigidity
+     */
     public GObject(int ID, float x, float y, int sizeX, int sizeY, boolean rigid) {
         this.ID = ID;
         this.x = x;

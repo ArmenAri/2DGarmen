@@ -37,6 +37,14 @@ public class GGraphics {
     public static String chars = "abcdefghijklmnopqrstuvwxyz " + "0123456789:!?.,()°+-/*#|{} "
             + "=%@°                       " + "                           " + "";
 
+    /**
+     * @param msg
+     * @param x
+     * @param y
+     * @param size
+     * @param color
+     * Rendering text with coordinates LEFT_TOP (x, y) and size with the color color
+     */
     public static void renderText(String msg, float x, float y, int size, float[] color) {
         msg = msg.toLowerCase();
         glEnable(GL_TEXTURE_2D);
@@ -68,6 +76,16 @@ public class GGraphics {
         glVertex2f(f, y + size);
     }
 
+    /**
+     * @param texture
+     * @param x1
+     * @param y1
+     * @param x2
+     * @param y2
+     * @param color
+     * Render an image with texture, and coordinates LEFT_TOP (x1, y1) and RIGHT-BOTTOM (x2, y2)
+     * color is just to change saturation of the image
+     */
     public static void renderImage(GTexture texture, float x1, float y1, float x2, float y2, float[] color) {
         if (texture != null) {
             texture.bind();
@@ -91,6 +109,14 @@ public class GGraphics {
         glDisable(GL_TEXTURE_2D);
     }
 
+    /**
+     * @param x1
+     * @param y1
+     * @param x2
+     * @param y2
+     * @param color
+     * Rendering quad with coordinates LEFT_TOP (x1, y1) and RIGHT-BOTTOM (x2, y2) and colored in color
+     */
     public static void renderQuad(float x1, float y1, float x2, float y2, float[] color) {
         glBegin(GL_QUADS);
         glColor4f(color[0], color[1], color[2], color[3]);
@@ -101,6 +127,7 @@ public class GGraphics {
         glColor4f(1, 1, 1, 1.0f);
         glEnd();
     }
+
 
     public static void renderOffsetImage(GTexture texture, float x, float y, float width, float height,
                                          float texture_size_x, float texture_size_y, float[] color, float x_off, float y_off, float size_x_off,
@@ -122,6 +149,11 @@ public class GGraphics {
         glDisable(GL_TEXTURE_2D);
     }
 
+    /**
+     * @param width
+     * @param height
+     * Initializing OpenGL context with the dimension of the window
+     */
     public static void init(int width, int height) {
         glViewport(0, 0, width, height);
         glMatrixMode(GL_PROJECTION);
@@ -136,6 +168,9 @@ public class GGraphics {
 
     }
 
+    /**
+     * Clearing OpenGL context
+     */
     public static void clear() {
         GL11.glClear(GL11.GL_COLOR_BUFFER_BIT | GL11.GL_DEPTH_BUFFER_BIT);
         glClearColor(0 / 255f, 0 / 255f, 0 / 255f, 1.0f);
