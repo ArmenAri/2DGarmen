@@ -6,7 +6,7 @@ public class GDefines {
      * Constants
      */
 
-    public static final String TITLE = "Test";
+    public static final String TITLE = "Jam";
     public static final String VERSION = "0.1";
 
     public static final int WIDTH = 1200;

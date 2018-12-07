@@ -9,7 +9,7 @@ public class GRunnable {
 
     /**
      * Main loop whit FPS calculator and frequencer
-     * @param game
+     * @param game the is included into the window
      */
     public static void start(GGame game) {
         long lastTime = System.nanoTime();
@@ -31,6 +31,7 @@ public class GRunnable {
             frames++;
             if (System.currentTimeMillis() - timer > 1000) {
                 timer += 1000;
+                System.out.println(frames);
                 updates = 0;
                 frames = 0;
             }

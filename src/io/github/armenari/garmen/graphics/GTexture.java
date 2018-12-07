@@ -4,6 +4,7 @@ import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL12.*;
 
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
@@ -13,7 +14,9 @@ import org.lwjgl.BufferUtils;
 
 public class GTexture {
 
-    public static GTexture default_font = loadTexture("fonts/default_font.png");
+    public static final GTexture default_font = loadTexture("/fonts/default_font.png");
+    public static final GTexture fire = loadTexture("/assets/particles/fire.png");
+    public static final GTexture flares = loadTexture("/assets/particles/flares_set.png");
 
     private int width, height;
     private int id;

@@ -21,6 +21,9 @@ public class GWindow extends GRunnable {
         this.display();
     }
 
+    /**
+     * Display the window with OpenGL context initialized !
+     */
     public void display() {
         try {
             Display.setDisplayMode(new DisplayMode(this.width, this.height));

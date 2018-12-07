@@ -1,6 +1,7 @@
 package io.github.armenari.garmen.objects;
 
 import io.github.armenari.garmen.components.GWindow;
+import io.github.armenari.garmen.graphics.GTexture;
 import io.github.armenari.garmen.utils.GDefines;
 import org.lwjgl.Sys;
 import org.lwjgl.opengl.Display;
@@ -13,6 +14,7 @@ public class GObject {
     protected int sizeX;
     protected int sizeY;
     protected boolean rigid;
+    protected GTexture texture;
 
     /**
      * @param ID
@@ -94,4 +96,12 @@ public class GObject {
         this.rigid = rigid;
     }
 
+    public GTexture getTexture() {
+        return texture;
+    }
+
+    public GObject setTexture(GTexture texture) {
+        this.texture = texture;
+        return this;
+    }
 }

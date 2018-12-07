@@ -62,6 +62,12 @@ public class GGraphics {
         glDisable(GL_TEXTURE_2D);
     }
 
+    /**
+     * @param c the character
+     * @param f the x position
+     * @param y the y position
+     * @param size the size of the character
+     */
     private static void charData(char c, float f, float y, int size) {
         int i = chars.indexOf(c);
         int xo = i % 27;
@@ -129,9 +135,24 @@ public class GGraphics {
     }
 
 
+    /**
+     * @param texture
+     * @param x the x position
+     * @param y the y position
+     * @param width the sizeX
+     * @param height the sizeY
+     * @param color the color
+     * @param x_off the x position of the subimage
+     * @param y_off the y position of the subimage
+     * @param size_x_off the sizeX of the subimage
+     * @param size_y_off the sizeY of the subimage
+     * Rendering a subimage according to a tileset image
+     */
     public static void renderOffsetImage(GTexture texture, float x, float y, float width, float height,
-                                         float texture_size_x, float texture_size_y, float[] color, float x_off, float y_off, float size_x_off,
+                                         float[] color, float x_off, float y_off, float size_x_off,
                                          float size_y_off) {
+        float texture_size_x = texture.getWidth();
+        float texture_size_y = texture.getHeight();
         glEnable(GL_TEXTURE_2D);
         texture.bind();
         glBegin(GL_QUADS);

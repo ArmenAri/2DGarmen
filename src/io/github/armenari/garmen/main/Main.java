@@ -5,8 +5,11 @@ import io.github.armenari.garmen.utils.GDefines;
 
 public class Main {
 
+    static Game game;
+    static GWindow window;
     public static void main(String[] args) {
-        GWindow window = new GWindow(GDefines.WIDTH, GDefines.HEIGHT, GDefines.TITLE);
-        window.start(new Game());
+        window = new GWindow(GDefines.WIDTH, GDefines.HEIGHT, GDefines.TITLE);
+        game = new Game();
+        window.start(game);
     }
 }
