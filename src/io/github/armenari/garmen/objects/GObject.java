@@ -1,10 +1,10 @@
 package io.github.armenari.garmen.objects;
 
-import io.github.armenari.garmen.components.GWindow;
+import io.github.armenari.garmen.graphics.GGraphics;
 import io.github.armenari.garmen.graphics.GTexture;
 import io.github.armenari.garmen.utils.GDefines;
-import org.lwjgl.Sys;
-import org.lwjgl.opengl.Display;
+
+import java.awt.*;
 
 public class GObject {
 
@@ -45,7 +45,20 @@ public class GObject {
      * Render the game object
      */
     public void render() {
+        if(texture != null) {
+            GGraphics.renderImage(texture, x, y, sizeX, sizeY, GDefines.WHITE);
+        } else {
+            GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.WHITE);
+        }
+    }
 
+    public boolean isCollision(GObject o) {
+        if(o.isRigid()) {
+            if (this.getBounds().intersects(o.getBounds())) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public int getID() {
@@ -60,7 +73,7 @@ public class GObject {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(float x) {
         this.x = x;
     }
 
@@ -68,7 +81,7 @@ public class GObject {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(float y) {
         this.y = y;
     }
 
@@ -103,5 +116,9 @@ public class GObject {
     public GObject setTexture(GTexture texture) {
         this.texture = texture;
         return this;
+    }
+
+    public Rectangle getBounds() {
+        return new Rectangle((int) x, (int) y, sizeX, sizeY);
     }
 }
