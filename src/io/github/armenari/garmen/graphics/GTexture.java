@@ -27,6 +27,10 @@ public class GTexture {
         this.setId(id);
     }
 
+    /**
+     * @param path the path of the asset
+     * @return the texture with the asset
+     */
     public static GTexture loadTexture(String path) {
         BufferedImage image = null;
         try {

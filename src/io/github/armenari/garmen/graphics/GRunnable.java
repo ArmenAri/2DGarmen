@@ -9,7 +9,7 @@ public class GRunnable {
 
     /**
      * Main loop whit FPS calculator and frequencer
-     * @param game the is included into the window
+     * @param game that is included into the window
      */
     public static void start(GGame game) {
         long lastTime = System.nanoTime();

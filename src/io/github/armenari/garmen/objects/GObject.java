@@ -17,12 +17,12 @@ public class GObject {
     protected GTexture texture;
 
     /**
-     * @param ID
-     * @param x
-     * @param y
-     * @param sizeX
-     * @param sizeY
-     * @param rigid
+     * @param ID the ID of the object
+     * @param x the x position
+     * @param y the y position
+     * @param sizeX the sizeX
+     * @param sizeY the sizeY
+     * @param rigid the boolean that indicate if the object is rigid or no
      * Game object with dimensions ID and rigidity
      */
     public GObject(int ID, float x, float y, int sizeX, int sizeY, boolean rigid) {

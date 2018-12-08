@@ -38,21 +38,21 @@ public class GGraphics {
             + "=%@°                       " + "                           " + "";
 
     /**
-     * @param msg
-     * @param x
-     * @param y
-     * @param size
-     * @param color
+     * @param text the text to render
+     * @param x the x position
+     * @param y the y position
+     * @param size size of each character of the text
+     * @param color the color of the text
      * Rendering text with coordinates LEFT_TOP (x, y) and size with the color color
      */
-    public static void renderText(String msg, float x, float y, int size, float[] color) {
-        msg = msg.toLowerCase();
+    public static void renderText(String text, float x, float y, int size, float[] color) {
+        text = text.toLowerCase();
         glEnable(GL_TEXTURE_2D);
         GTexture.default_font.bind();
         glBegin(GL_QUADS);
         glColor4f(color[0], color[1], color[2], color[3]);
-        for (int i = 0; i < msg.length(); i++) {
-            char c = msg.charAt(i);
+        for (int i = 0; i < text.length(); i++) {
+            char c = text.charAt(i);
             int offs = i * size;
             charData(c, x + offs, y, size);
         }
@@ -83,12 +83,12 @@ public class GGraphics {
     }
 
     /**
-     * @param texture
-     * @param x1
-     * @param y1
-     * @param x2
-     * @param y2
-     * @param color
+     * @param texture the texture of the asset
+     * @param x1 the x position
+     * @param y1 the y position
+     * @param x2 the sizeX
+     * @param y2 the sizeY
+     * @param color the color of the texture
      * Render an image with texture, and coordinates LEFT_TOP (x1, y1) and RIGHT-BOTTOM (x2, y2)
      * color is just to change saturation of the image
      */
@@ -116,11 +116,11 @@ public class GGraphics {
     }
 
     /**
-     * @param x1
-     * @param y1
-     * @param x2
-     * @param y2
-     * @param color
+     * @param x1 the x position
+     * @param y1 the y position
+     * @param x2 the sizeX
+     * @param y2 the sizeY
+     * @param color the color of the quad
      * Rendering quad with coordinates LEFT_TOP (x1, y1) and RIGHT-BOTTOM (x2, y2) and colored in color
      */
     public static void renderQuad(float x1, float y1, float x2, float y2, float[] color) {
@@ -136,7 +136,7 @@ public class GGraphics {
 
 
     /**
-     * @param texture
+     * @param texture the texture of the asset
      * @param x the x position
      * @param y the y position
      * @param width the sizeX
@@ -171,8 +171,8 @@ public class GGraphics {
     }
 
     /**
-     * @param width
-     * @param height
+     * @param width the width of the window
+     * @param height the height of the window
      * Initializing OpenGL context with the dimension of the window
      */
     public static void init(int width, int height) {

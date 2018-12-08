@@ -54,8 +54,7 @@ public class GParticle extends GObject {
     }
 
     /**
-     * @param direction
-     * @brief set the direction of the particle
+     * @param direction the direction of the particle
      * @return the particle
      */
     public GParticle setDirection(Vector2f direction) {
@@ -68,8 +67,7 @@ public class GParticle extends GObject {
     }
 
     /**
-     * @param color
-     * @brief set the color of the particle
+     * @param color the color of the particle
      * @return the particle
      */
     public GParticle setColor(float[] color) {
@@ -82,8 +80,7 @@ public class GParticle extends GObject {
     }
 
     /**
-     * @param speed
-     * @brief set the speed of the particle
+     * @param speed the speed of the particle
      * @return the particle
      */
     public GParticle setSpeed(float speed) {

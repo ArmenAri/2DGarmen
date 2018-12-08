@@ -11,15 +11,28 @@ public abstract class GButton extends GObject {
 
     private String text;
     private int textSize;
+    private boolean isMouseDown;
 
-    public GButton(String text, float x, float y, int sizeX, int sizeY) {
-        super(0, x, y, sizeX, sizeY, false);
+    public GButton(String text, float x, float y) {
+        super(0, x, y, 0, 30, false);
         this.text = text;
-        textSize = 8;
+        textSize = 16;
+        this.setSizeX(text.length() * textSize + textSize);
     }
 
     public boolean isButtonDown() {
-        if(getBounds().contains(Mouse.getX(), Display.getHeight() - Mouse.getY()) && Mouse.isButtonDown(0)) {
+        if(getBounds().contains(Mouse.getX(), Display.getHeight() - Mouse.getY()) && Mouse.isButtonDown(0) && !isMouseDown) {
+            isMouseDown = true;
+            return true;
+        }
+        if(!Mouse.isButtonDown(0)) {
+            isMouseDown = false;
+        }
+        return false;
+    }
+
+    public boolean isButtonHover() {
+        if(getBounds().contains(Mouse.getX(), Display.getHeight() - Mouse.getY())) {
             return true;
         }
         return false;
@@ -35,6 +48,12 @@ public abstract class GButton extends GObject {
     @Override
     public void render() {
         GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.WHITE);
+        if(isButtonHover()) {
+            GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.LIGHT_BLUE);
+        }
+        if(isButtonDown()) {
+            GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.BLUE);
+        }
         GGraphics.renderText(text, x + sizeX / 2 - text.length() * textSize / 2 , y + sizeY / 2 - textSize / 2, textSize, GDefines.BLACK);
     }
 
