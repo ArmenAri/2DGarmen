@@ -1,7 +1,8 @@
-package io.github.armenari.garmen.graphics;
+package io.github.armenari.garmen.components;
 
 import io.github.armenari.garmen.components.GWindow;
 import io.github.armenari.garmen.game.GGame;
+import io.github.armenari.garmen.graphics.GGraphics;
 import io.github.armenari.garmen.utils.GDefines;
 import org.lwjgl.opengl.Display;
 

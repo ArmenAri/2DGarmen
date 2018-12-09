@@ -1,12 +1,9 @@
 package io.github.armenari.garmen.components;
 
 import io.github.armenari.garmen.graphics.GGraphics;
-import io.github.armenari.garmen.graphics.GRunnable;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 import org.lwjgl.LWJGLException;
-
-import java.awt.*;
 
 public class GWindow extends GRunnable {
 

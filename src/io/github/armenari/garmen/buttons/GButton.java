@@ -1,11 +1,10 @@
-package io.github.armenari.garmen.graphics;
+package io.github.armenari.garmen.buttons;
 
+import io.github.armenari.garmen.graphics.GGraphics;
 import io.github.armenari.garmen.objects.GObject;
 import io.github.armenari.garmen.utils.GDefines;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.Display;
-
-import javax.swing.*;
 
 public abstract class GButton extends GObject {
 
@@ -53,7 +52,7 @@ public abstract class GButton extends GObject {
     @Override
     public void update() {
         if(isButtonDown()) {
-            action();
+            onClick();
         }
     }
 
@@ -72,7 +71,7 @@ public abstract class GButton extends GObject {
     /**
      * Called when the buttion is clicked down
      */
-    public abstract void action();
+    public abstract void onClick();
 
     public String getText() {
         return text;

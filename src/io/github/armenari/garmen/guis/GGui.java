@@ -1,17 +1,14 @@
-package io.github.armenari.garmen.graphics;
+package io.github.armenari.garmen.guis;
 
+import io.github.armenari.garmen.buttons.GButton;
+import io.github.armenari.garmen.graphics.GGraphics;
 import io.github.armenari.garmen.objects.GObject;
 import io.github.armenari.garmen.utils.GDefines;
-import org.lwjgl.input.Mouse;
-import org.lwjgl.opengl.Display;
-
-import javax.swing.*;
-import java.awt.*;
 
 public class GGui extends GObject {
 
     private boolean guiOpened = true;
-    private GuiCloseButton closeButton;
+    private GButton closeButton;
     private String name;
 
     /**
@@ -25,12 +22,19 @@ public class GGui extends GObject {
     public GGui(int ID, String name, float x, float y, int sizeX, int sizeY) {
         super(ID, x, y, sizeX, sizeY, false);
         this.name = name;
-        this.closeButton = new GuiCloseButton("x", x + sizeX - 32, y, this);
+        this.closeButton = new GButton("x", x + sizeX - 32, y) {
+            @Override
+            public void onClick() {
+                setGuiOpened(false);
+            }
+        };
     }
 
     @Override
     public void update() {
-        closeButton.update();
+        if (isGuiOpened()) {
+            closeButton.update();
+        }
     }
 
     @Override

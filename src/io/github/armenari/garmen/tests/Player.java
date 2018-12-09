@@ -1,4 +1,4 @@
-package io.github.armenari.garmen.main;
+package io.github.armenari.garmen.tests;
 
 import io.github.armenari.garmen.objects.GObject;
 import org.lwjgl.input.Keyboard;
