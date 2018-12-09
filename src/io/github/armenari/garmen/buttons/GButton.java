@@ -2,6 +2,7 @@ package io.github.armenari.garmen.buttons;
 
 import io.github.armenari.garmen.graphics.GGraphics;
 import io.github.armenari.garmen.objects.GObject;
+import io.github.armenari.garmen.tests.Game;
 import io.github.armenari.garmen.utils.GDefines;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.Display;
@@ -11,7 +12,7 @@ public abstract class GButton extends GObject {
     private String text;
     private int textSize;
     private boolean isMouseDown;
-
+    private boolean visible;
 
     /**
      * @param text the text that would be displayed on the button
@@ -23,6 +24,7 @@ public abstract class GButton extends GObject {
         this.text = text;
         textSize = 16;
         this.setSizeX(text.length() * textSize + textSize);
+        this.setVisible(true);
     }
 
     /**
@@ -58,14 +60,16 @@ public abstract class GButton extends GObject {
 
     @Override
     public void render() {
-        GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.WHITE);
-        if(isButtonHover()) {
-            GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.LIGHT_BLUE);
+        if (isVisible()) {
+            GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.WHITE);
+            if (isButtonHover()) {
+                GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.LIGHT_BLUE);
+            }
+            if (isButtonDown()) {
+                GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.BLUE);
+            }
+            GGraphics.renderText(text, x + sizeX / 2 - text.length() * textSize / 2, y + sizeY / 2 - textSize / 2, textSize, GDefines.BLACK);
         }
-        if(isButtonDown()) {
-            GGraphics.renderQuad(x, y, sizeX, sizeY, GDefines.BLUE);
-        }
-        GGraphics.renderText(text, x + sizeX / 2 - text.length() * textSize / 2 , y + sizeY / 2 - textSize / 2, textSize, GDefines.BLACK);
     }
 
     /**
@@ -79,5 +83,13 @@ public abstract class GButton extends GObject {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    public boolean isVisible() {
+        return visible;
+    }
+
+    public void setVisible(boolean visible) {
+        this.visible = visible;
     }
 }

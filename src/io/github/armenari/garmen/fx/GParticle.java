@@ -2,6 +2,7 @@ package io.github.armenari.garmen.fx;
 
 import io.github.armenari.garmen.graphics.GGraphics;
 import io.github.armenari.garmen.objects.GObject;
+import io.github.armenari.garmen.tests.Game;
 import io.github.armenari.garmen.utils.GDefines;
 import org.lwjgl.Sys;
 import org.lwjgl.util.vector.Vector2f;

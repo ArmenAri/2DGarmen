@@ -2,9 +2,7 @@ package io.github.armenari.garmen.game;
 
 public abstract class GGame {
 
-    public GGame() {
-
-    }
+    public GGame() {}
 
     /**
      * Called every frame (updating position ...)

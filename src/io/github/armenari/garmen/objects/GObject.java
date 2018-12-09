@@ -2,6 +2,7 @@ package io.github.armenari.garmen.objects;
 
 import io.github.armenari.garmen.graphics.GGraphics;
 import io.github.armenari.garmen.graphics.GTexture;
+import io.github.armenari.garmen.tests.Game;
 import io.github.armenari.garmen.utils.GDefines;
 
 import java.awt.*;
@@ -32,6 +33,7 @@ public class GObject {
         this.sizeX = sizeX;
         this.sizeY= sizeY;
         this.rigid = rigid;
+        Game.objects.add(this);
     }
 
     /**
