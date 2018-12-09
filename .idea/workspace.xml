@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c78ee2ba-92c0-4e47-8a98-b54bfcb4aed4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Game.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+              <folding>
+                <element signature="e#761#767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/game/GGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/objects/GObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/fx/GParticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/guis/GGui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#1684#1685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/components/GRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GTexture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/buttons/GButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Texture</find>
+      <find>addActionListener</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/objects/GQuad.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/components/GWindow.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/IGButton.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/IGAction.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/main/ExitButton.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GRunnable.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GTexture.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GGraphics.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/main/Player.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/main/Game.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GuiCloseButton.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GGui.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GButton.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/utils/GDefines.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/buttons/GuiCloseButton.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/components/GRunnable.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/objects/GObject.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/fx/GParticle.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/buttons/GButton.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/guis/GGui.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/game/GGame.java" />
+        <option value="$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Game.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="827" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+              <item name="armenari" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+              <item name="armenari" type="1f31426a:PackageElementNode" />
+              <item name="garmen" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+              <item name="armenari" type="1f31426a:PackageElementNode" />
+              <item name="garmen" type="1f31426a:PackageElementNode" />
+              <item name="components" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+              <item name="armenari" type="1f31426a:PackageElementNode" />
+              <item name="garmen" type="1f31426a:PackageElementNode" />
+              <item name="game" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+              <item name="armenari" type="1f31426a:PackageElementNode" />
+              <item name="garmen" type="1f31426a:PackageElementNode" />
+              <item name="graphics" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+              <item name="armenari" type="1f31426a:PackageElementNode" />
+              <item name="garmen" type="1f31426a:PackageElementNode" />
+              <item name="main" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2DGarmen" type="616d4139:PackageViewModuleNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+              <item name="github" type="1f31426a:PackageElementNode" />
+              <item name="armenari" type="1f31426a:PackageElementNode" />
+              <item name="garmen" type="1f31426a:PackageElementNode" />
+              <item name="objects" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="buttons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="fx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="guis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2DGarmen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2DGarmen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="armenari" type="462c0819:PsiDirectoryNode" />
+              <item name="garmen" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="2dgarmen" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544372633742" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/fonts" />
+      <recent name="$PROJECT_DIR$/libraries" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lib" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.github.armenari.garmen.tests.Main" />
+      <module name="2DGarmen" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=libraries/natives" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c78ee2ba-92c0-4e47-8a98-b54bfcb4aed4" name="Default Changelist" comment="" />
+      <created>1544109150724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544109150724</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding comments and cleaning code">
+      <created>1544113514478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544113514478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding particle system and commentaries.">
+      <created>1544177327560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544177327561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding button system.">
+      <created>1544288521531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544288521531</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cleaning button system and adding commentaries.">
+      <created>1544293500311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544293500311</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding GUIs">
+      <created>1544368263294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544368263294</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removing unused classes">
+      <created>1544370055139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544370055139</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Clarifying code, removing unused ArrayLists, creating a simple ArrayList named objects which conntain all the game objects">
+      <created>1544372436381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544372436381</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32833788" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23433243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.24659401" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32561308" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1795422" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23569483" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32833788" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ordering GGame declaration and GWindow declaration" />
+    <MESSAGE value="Adding comments and cleaning code" />
+    <MESSAGE value="Adding particle system and commentaries." />
+    <MESSAGE value="Adding button system." />
+    <MESSAGE value="Cleaning button system and adding commentaries." />
+    <MESSAGE value="Adding GUIs" />
+    <MESSAGE value="Removing unused classes" />
+    <MESSAGE value="Clarifying code, removing unused ArrayLists, creating a simple ArrayList named objects which conntain all the game objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clarifying code, removing unused ArrayLists, creating a simple ArrayList named objects which conntain all the game objects" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/objects/GQuad.java" />
+    <entry file="file://$PROJECT_DIR$/res/assets/particles/fire.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1302" column="32" selection-start-line="1302" selection-start-column="32" selection-end-line="1302" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/assets/particles/flares_set.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libraries/lwjgl_util.jar!/org/lwjgl/util/Rectangle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11505">
+          <caret line="837" column="39" lean-forward="true" selection-start-line="837" selection-start-column="39" selection-end-line="837" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/event/EventListenerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2711">
+          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="238" column="23" lean-forward="true" selection-start-line="238" selection-start-column="23" selection-end-line="238" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="1869" column="13" lean-forward="true" selection-start-line="1869" selection-start-column="13" selection-end-line="1869" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/IGAction.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1871" column="18" selection-start-line="1871" selection-start-column="18" selection-end-line="1871" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/main/ExitButton.java" />
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/components/GWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GGraphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/utils/GDefines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/buttons/GuiCloseButton.java" />
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/components/GRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/graphics/GTexture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/buttons/GButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/fx/GParticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/game/GGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/guis/GGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/objects/GObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/armenari/garmen/tests/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="e#761#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>2DGarmen</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

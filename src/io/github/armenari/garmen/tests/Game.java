@@ -29,12 +29,17 @@ public class Game extends GGame {
     Player player = new Player(0, 500, 500, 32, 32, true);
 
     /*
-        Test button
+        Test button and particle
      */
-    GButton button = new GButton("testbutton", 1000, 400) {
+    GButton button = new GButton("Create Particle", 800, 400) {
         @Override
         public void onClick() {
-            System.out.println("testaction");
+            GParticle p = new GParticle(new Random().nextInt(5), 1000, 0, new Random().nextInt(32));
+            p.setColor(GDefines.WHITE);
+            p.setSpeed(0.9f);
+            p.setDirection(new Vector2f(0, 10));
+            p.setLifetime(1);
+            p.setTexture(GTexture.flares);
         }
     };
 
@@ -42,19 +47,8 @@ public class Game extends GGame {
 
     public void update() {
         /*
-            Test particle
-        */
-        GParticle p = new GParticle(new Random().nextInt(5), 1000, 0, new Random().nextInt(32));
-        p.setColor(GDefines.WHITE);
-        p.setSpeed(0.9f);
-        p.setDirection(new Vector2f(0, 10));
-        p.setLifetime(1);
-        p.setTexture(GTexture.flares);
-
-        /*
             Updating all the game objects
          */
-
         for(int i = 0; i < objects.size(); i++) {
             objects.get(i).update();
         }
