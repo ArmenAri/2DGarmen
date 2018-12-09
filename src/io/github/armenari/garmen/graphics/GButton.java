@@ -13,6 +13,12 @@ public abstract class GButton extends GObject {
     private int textSize;
     private boolean isMouseDown;
 
+
+    /**
+     * @param text the text that would be displayed on the button
+     * @param x the x position of the button
+     * @param y the y position of the button
+     */
     public GButton(String text, float x, float y) {
         super(0, x, y, 0, 30, false);
         this.text = text;
@@ -20,6 +26,9 @@ public abstract class GButton extends GObject {
         this.setSizeX(text.length() * textSize + textSize);
     }
 
+    /**
+     * @return true if the button is down (click) false if not
+     */
     public boolean isButtonDown() {
         if(getBounds().contains(Mouse.getX(), Display.getHeight() - Mouse.getY()) && Mouse.isButtonDown(0) && !isMouseDown) {
             isMouseDown = true;
@@ -31,6 +40,9 @@ public abstract class GButton extends GObject {
         return false;
     }
 
+    /**
+     * @return true if the button is overflew by the mouse false if not
+     */
     public boolean isButtonHover() {
         if(getBounds().contains(Mouse.getX(), Display.getHeight() - Mouse.getY())) {
             return true;
@@ -57,6 +69,9 @@ public abstract class GButton extends GObject {
         GGraphics.renderText(text, x + sizeX / 2 - text.length() * textSize / 2 , y + sizeY / 2 - textSize / 2, textSize, GDefines.BLACK);
     }
 
+    /**
+     * Called when the buttion is clicked down
+     */
     public abstract void action();
 
     public String getText() {

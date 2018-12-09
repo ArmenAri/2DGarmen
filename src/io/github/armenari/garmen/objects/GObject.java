@@ -38,7 +38,9 @@ public class GObject {
      * Update the game object
      */
     public void update() {
-
+        if(isRigid()) {
+            y += 9.81f;
+        }
     }
 
     /**
@@ -52,11 +54,25 @@ public class GObject {
         }
     }
 
+    /**
+     * @param o the object that would be included in the checking of the collision
+     * @return true if o collide with this object false if not
+     */
     public boolean isCollision(GObject o) {
         if(o.isRigid()) {
             if (this.getBounds().intersects(o.getBounds())) {
                 return true;
             }
+        }
+        return false;
+    }
+
+    /**
+     * @return true if this object is out of the bounds of the window
+     */
+    public boolean isOutOfWindowBound() {
+        if (!this.getBounds().intersects(new Rectangle(sizeX, sizeY, GDefines.WIDTH - 2 * sizeX, GDefines.HEIGHT - 2 * sizeY))) {
+            return true;
         }
         return false;
     }

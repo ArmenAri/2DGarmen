@@ -17,6 +17,12 @@ public class GParticle extends GObject {
 
     private float speed;
 
+    /**
+     * @param ID the id of the particle
+     * @param x the x position of the particle
+     * @param y the y position of the particle
+     * @param size the size of the particle
+     */
     public GParticle(int ID, float x, float y, int size) {
         super(ID, x, y, size, size, false);
     }
